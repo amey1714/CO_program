@@ -48,6 +48,7 @@ int main()
     cout<<t;
     cout<<"\n\nEnter a decimal number:\t";
     cin>>n;
+    comp_decimal_to_binary(n);
     cout<<"\n\nEND OF MAIN FUNCTION";
 
 }
