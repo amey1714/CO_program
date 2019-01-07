@@ -30,7 +30,9 @@ void comp_decimal_to_binary(int n)
      cout<<"\nThe binary equivalent of "<<n<<" is\n";
 
     for (int j=i-1;j>=0;j--)
+    {
         cout<<binaryNum[j];
+    }
 }
 
 int main()
