@@ -35,15 +35,17 @@ void comp_decimal_to_binary(int n)
 
 int main()
 {
+    cout<<"START OF MAIN FUNCTION\n";
     cout<<"hey\n";
-    cout<<"how you doing"
+    cout<<"how you doing\n";
     int i,n,t;
-    cout<<"Enter a binary number:\t";
+    cout<<"\nEnter a binary number:\t";
     cin>>n;
     cout<<"The decimal equivalent of "<<n<<" is\n";
     t=comp_binary_to_decimal(n);
     cout<<t;
     cout<<"\n\nEnter a decimal number:\t";
     cin>>n;
+    cout<<"\n\nEND OF MAIN FUNCTION";
 
 }
